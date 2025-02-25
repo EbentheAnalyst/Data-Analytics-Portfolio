@@ -8,19 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Main Header Styling */
-.main-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 36px;
-}
-
 /* Navbar Styling */
 nav {
     background-color: #333;
@@ -51,6 +38,15 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
 /* Project Image Hover Zoom Effect */
 .project-img {
     width: 100%;
@@ -65,30 +61,10 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
-/* Section Styling */
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
 /* Footer Styling */
 footer {
     background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    nav ul li {
-        margin: 10px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
 }
