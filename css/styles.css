@@ -51,6 +51,20 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
+/* Project Image Hover Zoom Effect */
+.project-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
 /* Section Styling */
 section {
     padding: 20px;
@@ -73,7 +87,7 @@ footer {
     nav ul li {
         margin: 10px;
     }
-    
+
     h1 {
         font-size: 28px;
     }
